@@ -1,0 +1,250 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>如何让你的MIUI设备使用原生的动画效果 | PGS的Blog</title>
+<link rel="shortcut icon" href="https://blog.pgs.ac.cn/favicon.ico?v=1733319451466">
+<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+<link rel="stylesheet" href="https://blog.pgs.ac.cn/styles/main.css">
+<link rel="alternate" type="application/atom+xml" title="如何让你的MIUI设备使用原生的动画效果 | PGS的Blog - Atom Feed" href="https://blog.pgs.ac.cn/atom.xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-M8FMLR5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'GTM-M8FMLR5');
+</script>
+
+
+    <meta name="description" content="本教程的视频版本已经在B站发布
+搞机有风险 本人对数据丢失 卡米等后果不负一切责任
+仅在Redmi K30 Pro 开发版20.11.3上测试 其它不同的设备效果未知
+必须有magisk
+昨天闲得无聊的时候突然发现 MIUI开发版20.11..." />
+    <meta name="keywords" content="教程" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://blog.pgs.ac.cn">
+  <img class="avatar" src="https://blog.pgs.ac.cn/images/avatar.png?v=1733319451466" alt="">
+  </a>
+  <h1 class="site-title">
+    PGS的Blog
+  </h1>
+  <p class="site-description">
+    
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/archives" class="menu">
+          归档
+        </a>
+      
+    
+      
+        <a href="/tags" class="menu">
+          标签
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="https://github.com/pgs666" target="_blank">
+          <i class="ri-github-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://twitter.com/fakekd233" target="_blank">
+          <i class="ri-twitter-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://weibo.com/u/6312018242" target="_blank">
+          <i class="ri-weibo-line"></i>
+        </a>
+      
+    
+      
+        <a href="https://www.zhihu.com/people/pgs666" target="_blank">
+          <i class="ri-zhihu-line"></i>
+        </a>
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              如何让你的MIUI设备使用原生的动画效果
+            </h2>
+            <div class="post-info">
+              <span>
+                2021-11-21
+              </span>
+              <span>
+                3 min read
+              </span>
+              
+                <a href="https://blog.pgs.ac.cn/tag/ehp8-WhWG/" class="post-tag">
+                  # 教程
+                </a>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://blog.pgs.ac.cn/post-images/how-to-use-lawnchair-on-miui.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <p>本教程的视频版本已经在<a href="https://www.bilibili.com/video/BV1QR4y1t7UH/">B站</a>发布</p>
+<h3 id="搞机有风险-本人对数据丢失-卡米等后果不负一切责任">搞机有风险 本人对数据丢失 卡米等后果不负一切责任</h3>
+<h5 id="仅在redmi-k30-pro-开发版20113上测试-其它不同的设备效果未知">仅在Redmi K30 Pro 开发版20.11.3上测试 其它不同的设备效果未知</h5>
+<p><em><strong>必须有magisk</strong></em></p>
+<p>昨天闲得无聊的时候突然发现 <em>MIUI开发版20.11.3</em> 上可以通过<a href="https://github.com/skittles9823/QuickSwitch">Quick switch</a>模块配合<a href="https://lawnchair.app/">Lawnchair</a>桌面来获得安卓原生的动画效果和多任务界面，为什么我这么惊讶呢，因为在以前的miui版本中，使用quick switch模块需要修改system ui才能产生效果。将效果发布到酷安后我发现有些人不会用quick switch模块，在发布了视频教程之后，我决定再写一篇图文教程（</p>
+<h4 id="下载并安装文件">下载并安装文件</h4>
+<p>首先呢，需要三个apk和一个模块zip，下载<a href="https://pgs666.lanzoui.com/iqYz8wq7mzc">链接</a>扔蓝奏云了，<strong>解压食用</strong></p>
+<figure data-type="image" tabindex="1"><img src="https://blog.pgs.ac.cn/post-images/1637468202894.jpg" alt="" loading="lazy"></figure>
+<p>安装好三个apk和面具模块之后<strong>重启手机</strong></p>
+<h4 id="在quickswitch模块中选择lawnchair">在QuickSwitch模块中选择lawnchair</h4>
+<figure data-type="image" tabindex="2"><img src="https://blog.pgs.ac.cn/post-images/1637468213095.jpg" alt="" loading="lazy"></figure>
+<p>选择lawnchair之后确定两次，会提示你 一切都完成了 是否继续（重启）我们这里 <em><strong>最好</strong></em> 不要重启，先把系统的默认桌面换掉。</p>
+<p>然后你会发现lawnchair并不在MIUI桌面的白名单中，怎么办呢</p>
+<figure data-type="image" tabindex="3"><img src="https://blog.pgs.ac.cn/post-images/1637468223167.jpg" alt="" loading="lazy"></figure>
+<p>这个时候我们需要求助小爱同学，说“关闭手机管家”，这个弹窗就会消失，然后立刻点击lawnchair</p>
+<figure data-type="image" tabindex="4"><img src="https://blog.pgs.ac.cn/post-images/1637468235437.jpg" alt="" loading="lazy"></figure>
+<p>虚拟键弹出来之后就可以重启手机了</p>
+<h4 id="将虚拟键切换回全面屏手势">将虚拟键切换回全面屏手势</h4>
+<p>重启手机后，你会发现，lawnchair的动画已经正常了，想要切换回全面屏手势该怎么切换呢，直接切换的话MIUI会这样提示</p>
+<figure data-type="image" tabindex="5"><img src="https://blog.pgs.ac.cn/post-images/1637468249012.jpg" alt="" loading="lazy"></figure>
+<p>你可能已经猜到了，还是通过小爱同学来绕过这个弹窗。对小爱同学说 “全面屏手势” 会进入一个新的界面</p>
+<figure data-type="image" tabindex="6"><img src="https://blog.pgs.ac.cn/post-images/1637468263876.jpg" alt="" loading="lazy"></figure>
+<p>这个时候就可以直接切换到全面屏手势了</p>
+<h4 id="解决一些小毛病">解决一些小毛病</h4>
+<p>因为miui的一些魔改，所以在上滑回桌面的时候还是可能会回到miui的系统桌面，解决方法也非常简单，强行停止miui系统桌面就行，也可以借用冰箱来强行停止（<strong>无法冻结，miui会自动进行解冻，强行冻结有可能卡米，未测试</strong>）</p>
+<figure data-type="image" tabindex="7"><img src="https://blog.pgs.ac.cn/post-images/1637468281532.jpg" alt="" loading="lazy"></figure>
+<p>这时候你会发现返回手势寄了，这是因为miui的返回手势建立在系统桌面上，怎么解决？还记得我一开始发的流体手势吗，启用它就行 <em><strong>为了保证最佳体验请关闭流体手势的底部操作</strong></em></p>
+<h4 id="如何恢复">如何恢复？</h4>
+<p>非常简单，只需要卸载quickswitch模块即可</p>
+<figure data-type="image" tabindex="8"><img src="https://blog.pgs.ac.cn/post-images/1637468291331.jpg" alt="" loading="lazy"></figure>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#%E6%90%9E%E6%9C%BA%E6%9C%89%E9%A3%8E%E9%99%A9-%E6%9C%AC%E4%BA%BA%E5%AF%B9%E6%95%B0%E6%8D%AE%E4%B8%A2%E5%A4%B1-%E5%8D%A1%E7%B1%B3%E7%AD%89%E5%90%8E%E6%9E%9C%E4%B8%8D%E8%B4%9F%E4%B8%80%E5%88%87%E8%B4%A3%E4%BB%BB">搞机有风险 本人对数据丢失 卡米等后果不负一切责任</a><br>
+*
+<ul>
+<li><a href="#%E4%BB%85%E5%9C%A8redmi-k30-pro-%E5%BC%80%E5%8F%91%E7%89%8820113%E4%B8%8A%E6%B5%8B%E8%AF%95-%E5%85%B6%E5%AE%83%E4%B8%8D%E5%90%8C%E7%9A%84%E8%AE%BE%E5%A4%87%E6%95%88%E6%9E%9C%E6%9C%AA%E7%9F%A5">仅在Redmi K30 Pro 开发版20.11.3上测试 其它不同的设备效果未知</a></li>
+<li><a href="#%E4%B8%8B%E8%BD%BD%E5%B9%B6%E5%AE%89%E8%A3%85%E6%96%87%E4%BB%B6">下载并安装文件</a></li>
+<li><a href="#%E5%9C%A8quickswitch%E6%A8%A1%E5%9D%97%E4%B8%AD%E9%80%89%E6%8B%A9lawnchair">在QuickSwitch模块中选择lawnchair</a></li>
+<li><a href="#%E5%B0%86%E8%99%9A%E6%8B%9F%E9%94%AE%E5%88%87%E6%8D%A2%E5%9B%9E%E5%85%A8%E9%9D%A2%E5%B1%8F%E6%89%8B%E5%8A%BF">将虚拟键切换回全面屏手势</a></li>
+<li><a href="#%E8%A7%A3%E5%86%B3%E4%B8%80%E4%BA%9B%E5%B0%8F%E6%AF%9B%E7%97%85">解决一些小毛病</a></li>
+<li><a href="#%E5%A6%82%E4%BD%95%E6%81%A2%E5%A4%8D">如何恢复？</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://blog.pgs.ac.cn/post/guan-yu-ci-bo-ke/">
+              <h3 class="post-title">
+                关于此博客
+              </h3>
+            </a>
+          </div>
+        
+
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
+  <a class="rss" href="https://blog.pgs.ac.cn/atom.xml" target="_blank">
+    <i class="ri-rss-line"></i> RSS
+  </a>
+</div>
+
+      </div>
+    </div>
+
+    <script>
+      hljs.initHighlightingOnLoad()
+
+      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+      // This should probably be throttled.
+      // Especially because it triggers during smooth scrolling.
+      // https://lodash.com/docs/4.17.10#throttle
+      // You could do like...
+      // window.addEventListener("scroll", () => {
+      //    _.throttle(doThatStuff, 100);
+      // });
+      // Only not doing it here to keep this Pen dependency-free.
+
+      window.addEventListener("scroll", event => {
+        let fromTop = window.scrollY;
+
+        mainNavLinks.forEach((link, index) => {
+          let section = document.getElementById(decodeURI(link.hash).substring(1));
+          let nextSection = null
+          if (mainNavLinks[index + 1]) {
+            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+          }
+          if (section.offsetTop <= fromTop) {
+            if (nextSection) {
+              if (nextSection.offsetTop > fromTop) {
+                link.classList.add("current");
+              } else {
+                link.classList.remove("current");    
+              }
+            } else {
+              link.classList.add("current");
+            }
+          } else {
+            link.classList.remove("current");
+          }
+        });
+      });
+
+    </script>
+  </body>
+</html>
